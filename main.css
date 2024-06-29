@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+.section_title {
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
+}
+
+.key h1 {
+    font-size: 4.0rem;
+}
+
+.section_title h2 {
+  display: inline-block;
+  font-family: "Noto Serif JP", serif;
+  font-size: 2.4rem;
+  color: #42210b;
+  border-bottom: solid #42210b;
+  margin-bottom: 20px;
+}
+
+.section_inner h1 {
+  text-align: center;
+}
+
+.header_nav {
+  background: #00000090;
+  display: flex;
+
+  /*テキストでは80pxですが90pxにしないとブラウザ上の背景色の幅が合いません*/
+  height: 90px;
+
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.global_nav_item{
+  display: flex;
+  align-items: stretch;
+} 
+
+.global_nav_items{
+  color: #fff;
+  text-decoration-line: none;
+  display: flex;
+  /*デバックで確認すると「align-items」が無効になっています。*/
+  align-items: center;
+  padding: 0 20px;
+} 
+
+.global_nav_item :hover {
+  background-color: #fff;
+  color: #42210b;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100;
+}
+
+.center {
+  text-align: center;
+}
+
+.coffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+ }
+
+
+
+
+
+
+
+
